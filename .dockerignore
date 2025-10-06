@@ -1,0 +1,8 @@
+# Ignore the build output and other unnecessary files
+main
+*.log
+*.tmp
+.git
+.gitignore
+Dockerfile
+.dockerignore
