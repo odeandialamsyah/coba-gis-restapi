@@ -15,7 +15,7 @@ var DB *mongo.Database
 func ConnectDB() {
 	mongoURI := os.Getenv("MONGO_URI")
 	if mongoURI == "" {
-		mongoURI = "mongodb://localhost:27017"
+		mongoURI = "mongodb+srv://odeandi:13210911@cluster0.big5xbd.mongodb.net/"
 	}
 
 	dbName := os.Getenv("DB_NAME")
